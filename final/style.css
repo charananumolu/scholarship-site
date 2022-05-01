@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    
+}
+
+li,a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(0,136,169,1);
+    text-decoration: none;
+}
+
+button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+h2{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    
+}
+
+h3{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    color: #11999e;
+}
+
+.coding{
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px
+}
+
+.python{
+    width: 25%;
+    float: right;
+    margin-left: 30px
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.image-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.img-con{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 40px 0 20px;
+    
+}
+
+.footer-link{
+    padding-left: 50px;
+
+}
+
+.cpyright{
+    color: #eaf6f6;
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+
+.login-container{
+    font-family: sans-serif;
+    color: #fff;
+    background: #0088a9;
+}
+
+.heading{
+    margin-top: 30px;
+    color: #0088a9;
+    font-style: italic;
+    font-size: 2.5rem;
+}
